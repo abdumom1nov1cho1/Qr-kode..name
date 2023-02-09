@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(90deg, #000428, #004e92);
+}
+.themeText {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.inputSec {
+  align-items: center;
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  padding: 0 200px;
+}
+.inputSec > input {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 15px;
+  width: 40%;
+}
+.inputSec > input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.output {
+  padding: 20px 0;
+  text-align: center;
+}
+.buttonsArea {
+  display: flex;
+  justify-content: center;
+}
+.generateBtn {
+  background-color: #ff15d7;
+}
+.downloadBtn,
+.generateBtn {
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+  font-family: system-ui;
+  font-size: 20px;
+  padding: 15px 10px;
+}
+.downloadBtn {
+  background-color: #1ae374;
+  margin: 0 20px;
+}
+/*# sourceMappingURL=main.fc34302c.css.map*/
